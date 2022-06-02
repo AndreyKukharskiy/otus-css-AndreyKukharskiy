@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -5,72 +6,94 @@
     <title>Заголовок страницы</title>
 </head>
 <body>
-    <div class="header">
-        <button type="button">
-            <img src="./img/header_button.png" alt="menu">
-        </button>
-    </div>
+    <header>
+        <nav>
+            <a href="#biography">Biography</a>
+            <a href="#designers">Designers</a>
+            <a href="#Testimonials">Testimonials</a>
+            <a href="#Strong points">Strong points</a>
+        </nav>
+    </header>
     <main>
         <section>
-            <section class="promo">
-                <section class="post">
-                    <h1>Mod studio</h1>
-                    <h3>Modern Web Studio</h3>
-                </section>
-            </section>
+            <h1>Mod studio</h1>
+            <h2>Modern Web Studio</h2>
         </section>
-        <section class="beb">
+        <section>
             <img src="./img/katya.jpg">
             <section>
-                <h1>Katya<p>Mills</p>
-                </h1>
-                <h3>
-                    Art Director
-                    Scenography / Styling / Creative Photography / Design
-                </h3>
-                <q>
-                    "The more I deal with the work as something that is my own, as something that is personal, the
-                    more successful it is."
-                </q>
+                <h2>Biography</h2>
+                <h3>Katya Mills</h3>
+                <p>Art Director</p>
+                <ul>
+                    <li>Scenography /</li>
+                    <li>Styling /</li>
+                    <li>Creative Photography /</li>
+                    <li>Design</li>
+                </ul>
+                <figure>
+                    <blockquote cite="https://www.huxley.net/bnw/four.html">
+                        <p>"The more I deal with the work as something that is my own, as something that is personal,
+                            the more successful it is."</p>
+                    </blockquote>
+                </figure>
             </section>
         </section>
-        <section class="pep">
-            <section class="L2">
+        <section>
+            <h2>Designers</h2>
+            <section>
                 <img src="./img/jieswonder.jpg">
-                <h3>
-                    <P>Jess Wonder</P>
+                <article>
+                    <h1>Jess Wonder</h1>
                     <p>From/ Be more flower</p>
                     <p>Skills/ Design Strategy / Marketing</p>
-                </h3>
+                </article>
             </section>
-            <section class="R2">
+            <section>
                 <img src="./img/louseered.jpg">
-                <h3>
-                    <p>Kameron Clein</p>
+                <article>
+                    <h1>Kameron Clein</h1>
                     <p>From/ Be more flower</p>
                     <p>Skills/ Design Strategy / Marketing</p>
-                </h3>
-
+                </article>
                 <img src="./img/kameronclein.jpg">
-                <h3>
-                    <P>LOUISSE RED</P>
+                <article>
+                    <h1>LOUISSE RED</h1>
                     <p>From/ Be more flower</p>
                     <p>Skills/ Design Strategy / Marketing</p>
-                </h3>
+                </article>
             </section>
         </section>
-        <section class="kek">
+        <section>
+            <h2>Testimonials</h2>
+            <ul>
+                <li>
+                    <p>Website</p><a href="www.whitepapers.com"></a>
+                </li>
+                <li>
+                    <p>Website</p><a href="www.whitepapers.com"></a>
+                </li>
+                <li>
+                    <p>Website</p><a href="www.whitepapers.com"></a>
+                </li>
+            </ul>
             <img src="./img/testimonials_L.jpg">
-            <q>
-                I just really want to do good work and work with some great people, people who challange me.
-            </q>
-            <img src="./img/testimonials_R.jpg">
+            <div>
+                <figure>
+                    <blockquote cite="https://www.huxley.net/bnw/four.html">
+                        <p>"I just really want to do good work and work with some great people, people who challange
+                            me."</p>
+                    </blockquote>
+                </figure>
+                <img src="./img/testimonials_R.jpg">
+            </div>
         </section>
-        <section class="shmyak">
+        <section>
+            <h2>Strong points</h2>
             <img src="./img/strenght_1.jpg">
             <img src="./img/strenght_2.jpg">
-            <h2>Strenghts</h2>
-            <h3>
+            <div>
+                <h3>Strenghts</h3>
                 <ul>
                     <li>Interiors</li>
                     <li>Outdoors</li>
@@ -85,10 +108,9 @@
                     <li>Nature</li>
                     <li>Creativity</li>
                 </ul>
-            </h3>
+            </div>
             <img src="./img/strenght_3.jpg">
         </section>
     </main>
 </body>
-
 </html>
