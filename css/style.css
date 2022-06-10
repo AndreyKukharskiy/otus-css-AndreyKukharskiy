@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;400;700&display=swap');
+
+@font-face {
+    font-family: 'Butler';
+    src: local('Butler Regular'),
+    url(../fonts/Butler.woff),
+    url(../fonts/Butler.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero_block h1 {
+    font-family: 'Butler';
+    font-size: 5.44rem;
+}
+
+.hero_block h2 {
+    font-family: 'Roboto';
+    font-size: 1.125rem;
+}
+
+.hero_block {
+    width: 66.56rem;
+    height: 39.4rem;
+    background-image: url(../img/inside-weather-Uxqlfigh6oE-unsplash\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    background-color: rgb(216, 124, 19);
+    padding-top: 8.75rem;
+    margin-top: 8.44rem;
+}
+
+.hero_block_inner {
+    width: 34.8rem;
+    height: 22.2rem;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 8.125rem;
+}
+
+.hero-block.h2 {
+    font-family: 'Roboto';
+}
