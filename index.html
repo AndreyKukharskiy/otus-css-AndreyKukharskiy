@@ -4,23 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Mod studio</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <nav>
+    <!-- пока скрыл его -->
+
+    <!-- <nav>
         <a href="#biography">Biography</a>
         <a href="#designers">Designers</a>
         <a href="#testimonials">Testimonials</a>
         <a href="#strong-points">Strong points</a>
-    </nav>
+    </nav> -->
     <main>
         <section>
-            <img src="./img/inside-weather-Uxqlfigh6oE-unsplash 1.jpg" alt="#">
-            <h1>Mod studio</h1>
-            <h2>Modern Web Studio</h2>
+            <div class="hero_block">
+                <div class="hero_block_inner">
+                    <h1>Mod studio</h1>
+                    <h2>Modern Web Studio</h2>
+                </div>
+                <!-- Если использоыать картинку вместо фона, то надо будет использовать позиционирование, легче использовать фон -->
+                
+                <!-- <img src="./img/inside-weather-Uxqlfigh6oE-unsplash 1.jpg" alt="#"> -->
+            </div>
         </section>
 
-        <section id="biography">
+        <section class="biography-block" id="biography">
             <h2>Biography</h2>
             <img src="./img/jared-weiss-P3cB0ynqYBw-unsplash 1.jpg">
             <h3>Katya Mills</h3>
@@ -32,7 +41,7 @@
             </blockquote>
         </section>
 
-        <section id="designers">
+        <section class="desingers_block" id="designers">
             <h2>Designers</h2>
             <article>
                 <img src="./img/spurwing-agency-r6LceZ3ckpM-unsplash 1.jpg">
@@ -54,7 +63,7 @@
             </article>
         </section>
 
-        <section id="testimonials">
+        <section class="testimonials_block" id="testimonials">
             <h2>Testimonials</h2>
             <a href="www.whitepapers.com"><span>Website</span>www.whitepapers.com</a>
             <a href="www.whitepapers.com"><span>Website</span>www.whitepapers.com</a>
@@ -66,8 +75,8 @@
             </blockquote>
             <img src="./img/sinitta-leunen-YaReHIzNdRw-unsplash 1.jpg">
         </section>
-        
-        <section id="strong-points">
+
+        <section class="strong-points_block" id="strong-points">
             <h2>Strong points</h2>
             <img src="./img/dawid-liberadzki-vPFbVB7DPZI-unsplash 1.jpg">
             <img src="./img/avery-klein-JaXs8Tk5Iww-unsplash 1.jpg">
