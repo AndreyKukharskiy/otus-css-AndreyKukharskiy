@@ -1,55 +1,49 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 16px
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;400;700&display=swap');
-
-@font-face {
-    font-family: 'Butler';
-    src: local('Butler Regular'),
-    url(../fonts/Butler.woff),
-    url(../fonts/Butler.woff2);
-    font-weight: 400;
-    font-style: normal;
+:root {
+    font-size: 16px,
 }
 
 .hero_block h1 {
-    font-family: 'Butler';
+    font-family: 'Butler', 'Arial';
     font-size: 5.44rem;
+    margin: 0;
 }
 
 .hero_block h2 {
-    font-family: 'Roboto';
+    margin: 0;
+    font-family: 'Roboto', 'Arial';
     font-size: 1.125rem;
 }
 
 .hero_block {
-    width: 66.56rem;
-    height: 39.4rem;
-    background-image: url(../img/inside-weather-Uxqlfigh6oE-unsplash\ 1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     margin: 0 auto;
-    background-color: rgb(216, 124, 19);
-    padding-top: 8.75rem;
-    margin-top: 8.44rem;
+
+    position: relative;
+    top: 8.44rem;
+
+    max-width: 66.56rem;
+    max-height: 39.4rem;
 }
 
-.hero_block_inner {
-    width: 34.8rem;
-    height: 22.2rem;
+.hero_block_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    width: 100%;
+}
+
+.white_block {
     background-color: #fff;
+    max-width: 60%;
+    max-height: 30%;
+
     margin: 0 auto;
+
+    position: relative;
+    top: 8.75rem;
+
     text-align: center;
-    padding-top: 8.125rem;
+    /* padding-top: 4rem; */
 }
 
-.hero-block.h2 {
-    font-family: 'Roboto';
-}
