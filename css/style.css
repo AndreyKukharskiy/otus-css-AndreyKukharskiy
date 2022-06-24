@@ -88,7 +88,42 @@
 }
 
 
+.designers_block {
+    top: 950px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    align-items: end;
+}
 
+.disigner_1 {
+    margin-right: 100px;
+}
+
+.disigner_1 img {
+    height: 538px;
+    width: 609px;
+}
+
+.disigner_2 .disigner_3 img {
+    height: 309px;
+    width: 442px;
+    
+}
+
+
+.disigner_2 {
+    margin-right: 30px;
+}
+
+
+.designers_block h2 {
+    writing-mode: vertical-rl;
+    position: absolute;
+    left: 48.5%;
+    top: -5%;
+    z-index: 1;
+}
 
 
 
