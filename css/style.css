@@ -1,5 +1,5 @@
 :root {
-    font-size: 16px,
+    font-size: 100%,
 }
 
 .hero_block h1 {
@@ -9,41 +9,157 @@
 }
 
 .hero_block h2 {
-    margin: 0;
     font-family: 'Roboto', 'Arial';
     font-size: 1.125rem;
+    margin: 0;
 }
 
 .hero_block {
     margin: 0 auto;
+    margin-top: 7%;
 
     position: relative;
-    top: 8.44rem;
-
-    max-width: 66.56rem;
-    max-height: 39.4rem;
 }
 
 .hero_block_img {
     position: absolute;
-    top: 0;
-    left: 0;
     z-index: -1;
-
-    width: 100%;
+    left: calc(50% - 1065px/2);
+    max-width: 100%;
 }
 
 .white_block {
     background-color: #fff;
-    max-width: 60%;
-    max-height: 30%;
-
-    margin: 0 auto;
-
-    position: relative;
-    top: 8.75rem;
+    width: 600px;
+    height: 355px;
+    padding-top: 3.56%;
+    
+    position: absolute;
+    left: calc(50% - 1065px/2/2);
+    top: calc((630px - 300px)/2);
 
     text-align: center;
-    /* padding-top: 4rem; */
 }
 
+.biography_block {
+    position: relative;
+    top: 45rem;
+
+    max-width: 60%;
+    left: calc(50% - 553px);
+    right: 50%;
+
+    box-sizing: border-box;
+}
+
+.biography_block img {
+    max-width: 100%;
+    float: left;
+    margin-right: 8%;
+}
+
+.biography_block h3 {
+    font-family: 'Butler', 'Arial';
+    font-size: 5.44rem;
+    padding-right: 32%;
+    padding-top: 8%;
+}
+
+.biography_block blockquote {
+    font-family: 'Butler', 'Arial';
+    font-size: 2rem;
+    padding-right: 8%;
+}
+
+.biography_block p {
+    font-family: 'Roboto', 'Arial';
+    font-size: 1.25rem;
+}
+
+.biography_block div {
+    max-width: 1265px;
+}
+
+.biography_block h2 {
+    writing-mode: vertical-lr;
+    position: absolute;
+    left: 75%;
+    top: 85%;
+}
+
+
+
+
+
+
+
+
+
+
+.block-1 {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(167, 24, 24);
+    margin: 0 auto;
+    margin-top: 10%;
+    /* margin-top: 100px; */
+    /* top: 10%; */
+
+}
+
+.block-2 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(29, 167, 24);
+    margin: 0 auto;
+}
+
+.block-2 img {
+    width: 300;
+   
+}
+
+.block-3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(81, 231, 21);
+    margin: 0 auto;
+    top: 10%;
+    position: relative;
+
+}
+
+.block-4 {
+    width: 65px;
+    height: 40px;
+    background-color: rgb(223, 26, 164);
+
+    position: absolute;
+    left: calc((100% - 65px)/2);
+    
+}
+
+
+.block-5 {
+    width: 25px;
+    height: 15px;
+    background-color: rgb(175, 44, 77);
+ 
+    position: absolute;
+    left: calc((100% - 25px)/2);
+    top: calc((40px - 15px)/2);
+}
+
+
+
+/* test  */
+
+/* .test {
+    max-width: 30%;
+    outline: 2px solid black;
+}
+
+.test img {
+    display: block;
+    max-width: 100%;
+} */
