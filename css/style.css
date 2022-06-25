@@ -108,7 +108,6 @@
 .disigner_2 .disigner_3 img {
     height: 309px;
     width: 442px;
-    
 }
 
 
@@ -124,6 +123,51 @@
     top: -5%;
     z-index: 1;
 }
+
+.testimonials_block {
+    width: 1120px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100px 1fr 200px;
+    position: relative;
+    top: 1150px;
+}
+
+.testimonials_1 {
+    display: flex;
+    flex-direction: column;
+    writing-mode: vertical-lr;
+    align-items:center;
+}
+
+.testimonials_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.testimonials_2 img {
+    margin-top: 5%
+}
+
+
+.testimonials_block h2 {
+    writing-mode: vertical-rl;
+    position: absolute;
+    left: 48.5%;
+    top: -5%;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
