@@ -5,45 +5,39 @@
 .hero_block h1 {
     font-family: 'Butler', 'Arial';
     font-size: 5.44rem;
-    margin: 0;
+    font-weight: 400;
 }
 
 .hero_block h2 {
-    margin: 0;
     font-family: 'Roboto', 'Arial';
     font-size: 1.125rem;
+    font-weight: 700;
 }
 
 .hero_block {
     margin: 0 auto;
-
+    margin-top: 15%;
+    max-width: 1065px;
+    /* outline: 2px solid black; */
     position: relative;
-    top: 8.44rem;
+}
 
-    max-width: 66.56rem;
-    max-height: 39.4rem;
+.white_block {
+    /* outline: 2px solid black; */
+    background-color: #fff;
+    max-width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 7%;
+    padding-bottom: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .hero_block_img {
     position: absolute;
-    top: 0;
-    left: 0;
     z-index: -1;
-
-    width: 100%;
-}
-
-.white_block {
-    background-color: #fff;
-    max-width: 60%;
-    max-height: 30%;
-
+    max-width: 100%;
     margin: 0 auto;
-
-    position: relative;
-    top: 8.75rem;
-
-    text-align: center;
-    /* padding-top: 4rem; */
+    top: -55%;
 }
-
