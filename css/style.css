@@ -135,7 +135,6 @@
 
 .testimonials_1 {
     display: flex;
-    flex-direction: column;
     writing-mode: vertical-lr;
     align-items:center;
 }
