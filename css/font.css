@@ -1,10 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;400;700&display=swap');
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), 
+    url(../fonts/roboto/Robotobold.woff),
+    url(../fonts/roboto/Robotobold.woff2),
+    url(../fonts/roboto/Robotobold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'Butler';
     src: local('Butler'),
-    url(../fonts/Butler.woff),
-    url(../fonts/Butler.woff2);
+    url(../fonts/butler/Butler.woff2),
+    url(../fonts/butler/Butler.woff2);
     font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: local('Butler Light'), local('Butler-Light'),
+    url(../fonts/butler/Butler-Light.woff),
+    url(../fonts/butler/Butler-Light.woff2);
+    font-weight: 300;
     font-style: normal;
 }

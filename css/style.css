@@ -1,43 +1,67 @@
 :root {
-    font-size: 16px,
-}
-
-.hero_block h1 {
-    font-family: 'Butler', 'Arial';
-    font-size: 5.44rem;
-    font-weight: 400;
-}
-
-.hero_block h2 {
-    font-family: 'Roboto', 'Arial';
-    font-size: 1.125rem;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
-.hero_block {
-    margin: 0 auto;
-    margin-top: 15%;
-    max-width: 1065px;
-    /* outline: 2px solid black; */
-    position: relative;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.white_block {
-    /* outline: 2px solid black; */
+body {
     background-color: #fff;
-    max-width: 55%;
-    text-align: center;
+}
+
+.main_container {
+    /* width: 1440px; */
+    width: 75%;
     margin: 0 auto;
-    padding-top: 7%;
-    padding-bottom: 6%;
-    padding-left: 3%;
-    padding-right: 3%;
+    /* background-color: orange; */
+}
+
+.section_container {
+    position: relative;
+    height: 100vh;
+    /* background-color: blue; */
+}
+
+.hero_block {
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    white-space: nowrap;
+    text-align: center;
+    /* padding: 5em; */
+    padding: 10%;
+    z-index: 2;
+}
+
+.hero_block h1 {
+    font-family: 'Butler', 'Times', 'Times New Roman', serif;
+    font-size: calc(24px + 48 * (100vw / 1440));
+    font-weight: 300; 
+}
+
+.hero_block h2 {
+    position: absolute;
+    right: 0;
+    left: 0;
+    font-family: 'Roboto', 'Arial', "Helvetica", sans-serif;
+    font-size: 1.25em;
+    font-size: calc(8px + 8 * (100vw / 1440));
+    font-weight: 700;
 }
 
 .hero_block_img {
     position: absolute;
-    z-index: -1;
     max-width: 100%;
-    margin: 0 auto;
-    top: -55%;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
