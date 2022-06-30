@@ -35,8 +35,8 @@ body {
     transform: translate(-50%,-50%);
     white-space: nowrap;
     text-align: center;
-    /* padding: 5em; */
-    padding: 10%;
+    padding: 5em;
+    /* padding: 10%; */
     z-index: 2;
 }
 
