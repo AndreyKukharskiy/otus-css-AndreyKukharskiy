@@ -9,6 +9,17 @@
 }
 
 @font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), 
+    url(../fonts/roboto/Robotomedium.woff),
+    url(../fonts/roboto/Robotomedium.woff2),
+    url(../fonts/roboto/Robotomedium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
     font-family: 'Butler';
     src: local('Butler Bold'), local('Butler-Bold'),
     url(../fonts/butler/Butler-Bold.woff),
@@ -27,8 +38,6 @@
     font-style: normal;
 }
 
-
-
 @font-face {
     font-family: 'Butler';
     src:
@@ -36,5 +45,15 @@
     url(../fonts/butler/Butler-Light.woff),
     url(../fonts/butler/Butler-Light.woff2);
     font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src:
+    local('Butler UltraLight'), local('Butler-UltraLight'),
+    url(../fonts/butler/Butler-UltraLight.woff),
+    url(../fonts/butler/Butler-UltraLight.woff2);
+    font-weight: 200;
     font-style: normal;
 }
