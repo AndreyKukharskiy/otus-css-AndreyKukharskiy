@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), 
+    url(../fonts/roboto/Robotobold.woff),
+    url(../fonts/roboto/Robotobold.woff2),
+    url(../fonts/roboto/Robotobold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: local('Butler Bold'), local('Butler-Bold'),
+    url(../fonts/butler/Butler-Bold.woff),
+    url(../fonts/butler/Butler-Bold.woff2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: 
+    local('Butler'),
+    url(../fonts/butler/Butler.woff2),
+    url(../fonts/butler/Butler.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Butler';
+    src:
+    local('Butler Light'), local('Butler-Light'),
+    url(../fonts/butler/Butler-Light.woff),
+    url(../fonts/butler/Butler-Light.woff2);
+    font-weight: 300;
+    font-style: normal;
+}
