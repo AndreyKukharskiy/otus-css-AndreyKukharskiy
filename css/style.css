@@ -71,22 +71,22 @@ body {
     position: absolute;
     z-index: 2;
 
-    font-size: 0.25em;
+    font-size: 1.25em;
     
     top: 70%;
     left: 95%;
     transform: rotate(-90deg);
 }
 
-.biography-section {
-    outline: 2px solid black;
-    background-color: rgb(54, 177, 194);
-}
-
 .biography-section img {
     float: left;
     margin-right: 150px;
 }
+
+/* .biography-section {
+    outline: 2px solid black;
+    background-color: rgb(54, 177, 194);
+} */
 
 .biography-section p {
     font-size: 1.125rem;
